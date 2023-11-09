@@ -14,11 +14,11 @@ public class Appintializer extends Application {
 
     @Override
     public void start(Stage primaryStage)throws Exception {
-        Parent rootNode =  FXMLLoader.load(this.getClass().getResource("/view/main_form.fxml"));
+        Parent rootNode =  FXMLLoader.load(this.getClass().getResource("/view/login_form.fxml"));
 
         Scene scene = new Scene(rootNode);
 
-        primaryStage.setTitle("Main Form");
+        primaryStage.setTitle("Login Form");
         primaryStage.centerOnScreen();
         primaryStage.setScene(scene);
 
