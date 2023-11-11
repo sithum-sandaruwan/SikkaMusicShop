@@ -1,0 +1,24 @@
+/*
+Label{
+    -fx-background-color: red;
+}*/
+
+#decoratblePane{
+    -fx-background-color: #fae165;
+    -fx-background-radius: 7px;
+    -fx-border-color: black;
+    -fx-border-radius: 7px;
+    -fx-effect: dropshadow(three-pass-box, #ef5c25,20,0.3,0,0);
+}
+
+#decoratblePane:hover{
+    -fx-background-color: #ffe096;
+     -fx-effect: dropshadow(three-pass-box, #fd9caa,20,0.3,0,0);
+}
+#decoratblePane:pressed{
+    -fx-background-color: #f50422;
+}
+
+#decoratableBackground{
+    -fx-background-color: dark #45b7e3;
+}
